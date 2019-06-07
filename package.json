@@ -1,19 +1,25 @@
 {
     "name": "test-app",
     "version": "1.0.0",
-    "description": "test app", 
+    "description": "test app",
     "main": "app.js",
     "scripts": {
-        "start": "node app.js"
+        "start": "node app.js",
+        "watch": "nodemon ./start.js"
     },
     "repository": {
-        "type": "git", 
+        "type": "git",
         "url": ""
     },
-    "author":"",
+    "author": "",
     "license": "ISC",
     "bugs": {
         "url": ""
     },
-    "homepage" :""
+    "homepage": "",
+    "dependencies": {
+        "bootstrap": "^4.3.1",
+        "express": "^4.17.1",
+        "nodemon": "^1.19.1"
+    }
 }
